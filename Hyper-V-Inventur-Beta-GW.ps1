@@ -1,4 +1,5 @@
-﻿$Hostname=$env:computername
+﻿# (C) by Gerald Werner
+$Hostname=$env:computername
 $Hostname
 
 $hostOS = Get-WMIObject Win32_Operatingsystem -ComputerName $Hostname
